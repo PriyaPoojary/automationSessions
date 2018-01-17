@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]">
+  <test name="Demo Tests(failed)">
+    <classes>
+      <class name="Tests.BrowserTest">
+        <methods>
+          <include name="HomePageTest"/>
+          <include name="BookingPageTest"/>
+        </methods>
+      </class> <!-- Tests.BrowserTest -->
+    </classes>
+  </test> <!-- Demo Tests(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->
